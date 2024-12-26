@@ -1,0 +1,393 @@
+/* Basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+
+}
+
+main {
+    padding: 0 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+
+
+
+/* Header */
+
+
+
+
+
+
+
+/* Section - Presentación*/
+#presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+#icono-alba {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dimensiones {
+    width: 50rem;
+    height: 100%;
+    border-radius: 1.6rem 0 0 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+#dimensiones img {
+    width: 100%;
+    border-radius: 1.5rem 0;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#presento {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#me-presento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#me-presento h1 {
+    color: #1E1E1E;
+    font-size: 7rem;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+#me-presento h2 {
+    color: #ffffff;
+    font-size: 10.6rem;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+#oficio {
+    border-left: 4px solid #773210;
+    border-right: 4px solid #773210;
+    padding: 1.2rem;
+    font-size: 2.5rem;
+    font-family: "Poppins", serif;
+    color: #ffffff;
+    width: max-content;
+}
+
+
+
+
+
+
+/* Section - Sobre mi*/
+#sobre-mi {
+    gap: 4.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+#descripcion {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+#descripcion p {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-family: "Poppins", serif;
+}
+
+#descripcion span {
+    background-color: #773210;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px;
+    letter-spacing: 3px;
+    margin: 5px;
+}
+
+#curriculum {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+#curriculum a {
+    padding: 1.1rem 3rem;
+    width: max-content;
+    background-color: transparent;
+    color: #ffffff;
+    border-right: 4px solid #773210;
+    border-left: 4px solid #8B8B8B;
+    border-top: none;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+
+
+
+
+
+
+/* Tecnologias i Habilidades*/
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.tecnologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tecnologia img {
+    width: auto;
+    height: 50px;
+}
+
+.tecnologia p {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+}
+
+
+
+
+
+/* Section - Mi trabajo*/
+#texto-contacto2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+#total-apartado {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#trabajos {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trabajo {
+    width: 50rem;
+    height: 30rem;
+    background-color: white;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ver-mas {
+    display: flex;
+    justify-content: center;
+}
+
+#ver-mas a {
+    padding: 1.1rem 3rem;
+    width: max-content;
+    background-color: transparent;
+    color: #ffffff;
+    border-right: 4px solid #773210;
+    border-left: 4px solid #8B8B8B;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+
+
+
+
+
+/* Section - Contacto*/
+#contacto {
+    gap: 4.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#texto-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo-apartado {
+    color: #ffffff;
+    font-size: 4.8rem;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+.guion-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.guion-texto hr {
+    width: 7.4rem;
+    height: 1.7rem;
+    background-color: white;
+}
+
+.guion-texto h2 {
+    color: #773210;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+}
+
+#forma-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#formcorreo {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 70%;
+}
+
+#camposinput {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#camposinput input {
+    background-color: transparent;
+    border: 2px solid #773210;
+    padding: 1.2rem;
+    border-radius: 7px;
+}
+
+#camposinput input::placeholder {
+    color: #8B8B8B;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#formcorreo button {
+    padding: 1.1rem 3rem;
+    width: max-content;
+    background-color: transparent;
+    color: #ffffff;
+    border-right: 4px solid #773210;
+    border-left: 4px solid #8B8B8B;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+
+#imagen-contacto {
+    width: 100%;
+}
+
+#imagen-contacto img {
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0F0F0F;
+}
+
+#no_copy {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#no_copy p {
+    color: #5c5c5c;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Oswald';
+}
+
+#no_copy p a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
