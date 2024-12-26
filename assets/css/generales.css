@@ -217,7 +217,7 @@ main {
     justify-content: center;
     padding-top: 4rem;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6rem;
 }
 
 #trabajos {
@@ -236,6 +236,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #ver-mas {
