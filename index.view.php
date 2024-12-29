@@ -61,71 +61,24 @@
                 <div class="guion-texto">
                     <hr>
                 </div>
-                <p>Tengo experiencia trabajando con diferentes tecnologias</p>
+                <p>Tengo experiencia trabajando con diferentes tecnologías</p>
             </div>
 
             <div class="tecnologias">
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/html.svg" alt="Icono de HTML5">
-                    <p>HTML5</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/jaspersoft.svg" alt="Icono de Jaspersoft">
-                    <p>Jaspersoft</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/css.svg" alt="Icono de CSS">
-                    <p>CSS</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/js.svg" alt="Icono de JS">
-                    <p>JavaScript</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/mysql.svg" alt="Icono de MySQL">
-                    <p>MySQL</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/pgsql.svg" alt="Icono de PostrgreSQL">
-                    <p>PostrgreSQL</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/php.svg" alt="Icono de PHP">
-                    <p>PHP</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/mariadb.svg" alt="Icono de MariaDB">
-                    <p>MariaDB</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/python.svg" alt="Icono de Python">
-                    <p>Python</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/react.svg" alt="Icono de React">
-                    <p>React</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/vue.svg" alt="Icono de Vue">
-                    <p>Vue</p>
-                </div>
-
-                <div class="tecnologia">
-                    <img src="./assets/img/tecnologias/photoshop.svg" alt="Icono de Photoshop">
-                    <p>Photoshop</p>
-                </div>
+                <?php if (!empty($tecnologias)) { ?>
+                    <?php foreach ($tecnologias as $tecnologia) { ?>
+                        <div class="tecnologia">
+                            <img src="<?php echo htmlspecialchars($tecnologia['icono']); ?>"
+                                alt="<?php echo htmlspecialchars($tecnologia['nombre']); ?>">
+                            <p><?php echo htmlspecialchars($tecnologia['nombre']); ?></p>
+                        </div>
+                    <?php } ?>
+                <?php } else { ?>
+                    <p>No hay tecnologías registradas.</p>
+                <?php } ?>
             </div>
         </section>
+
 
         <section id="mi-trabajo">
             <div id="texto-contacto2">
@@ -168,8 +121,8 @@
                 </div>
 
                 <div id="ver-mas">
-                    <a href="#">Ver más</a>
-            </div>
+                    <a href="../php/proyectos.php">Ver más</a>
+                </div>
         </section>
 
         <section id="contacto">
