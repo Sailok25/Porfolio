@@ -25,13 +25,6 @@ main {
 
 
 
-/* Header */
-
-
-
-
-
-
 
 /* Section - Presentación*/
 #presentacion {
@@ -182,9 +175,9 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
+    gap: 5rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tecnologia {
@@ -204,65 +197,9 @@ main {
     font-size: 1.6rem;
     font-weight: bold;
     font-family: "Poppins", serif;
-}
-
-
-
-
-
-/* Section - Mi trabajo*/
-#texto-contacto2 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: flex-end;
-}
-
-#total-apartado {
-    display: flex;
-    justify-content: center;
-    padding-top: 4rem;
-    flex-direction: column;
-    gap: 6rem;
-}
-
-#trabajos {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.trabajo {
-    width: 50rem;
-    height: 30rem;
-    background-color: white;
-    opacity: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#ver-mas {
-    display: flex;
-    justify-content: center;
-}
-
-#ver-mas a {
-    padding: 1.1rem 3rem;
-    width: max-content;
-    background-color: transparent;
-    color: #ffffff;
-    border-right: 4px solid #773210;
-    border-left: 4px solid #8B8B8B;
-    font-size: 1.6rem;
-    letter-spacing: 3px;
     text-transform: uppercase;
-    font-family: "Montserrat", serif;
-    text-decoration: none;
 }
+
 
 
 
