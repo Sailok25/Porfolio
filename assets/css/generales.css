@@ -116,6 +116,12 @@ main {
     align-items: center;
 }
 
+#titulo-sobre-mi p{
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}
+
 #descripcion {
     width: 40%;
     display: flex;

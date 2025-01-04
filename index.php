@@ -14,7 +14,7 @@ if ($result_tecnologias->num_rows > 0) {
 }
 
 // Consulta para obtener los proyectos
-$sql_proyectos = "SELECT id, nombre_proyecto, caratula FROM proyecto ORDER BY CASE WHEN caratula IS NOT NULL AND caratula != '' THEN 1 ELSE 2 END, id ASC;";
+$sql_proyectos = "SELECT id, nombre_proyecto, caratula FROM proyecto";
 $result_proyectos = $conn->query($sql_proyectos);
 
 $proyectos = [];
