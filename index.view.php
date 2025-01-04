@@ -63,7 +63,6 @@
                 <div class="guion-texto">
                     <hr>
                 </div>
-                <p>Tengo experiencia trabajando con diferentes tecnologías</p>
             </div>
 
             <div class="tecnologias">
