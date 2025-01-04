@@ -19,7 +19,3 @@ Además, está diseñado con un enfoque limpio y moderno, fácil de navegar y vi
 
 Puedes ver mi portafolio en vivo a través del siguiente enlace:  
 [https://sailok25.github.io/Porfolio](https://sailok25.github.io/Porfolio)
-
-## Contacto 📬
-
-Si quieres ponerte en contacto conmigo o saber más sobre mis proyectos, no dudes en enviarme un mensaje a través de mis redes sociales o email.
