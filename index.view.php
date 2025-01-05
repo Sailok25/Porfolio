@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/generales.css">
     <link rel="stylesheet" href="assets/css/proyectos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
     <header></header>
 
     <main>
-        <section id="presentacion">
+        <section id="presentacion" data-aos="fade-down">
             <div id="presento">
                 <div id="me-presento">
                     <h1>Soy</h1>
@@ -37,7 +38,7 @@
             </div>
         </section>
 
-        <section id="sobre-mi">
+        <section id="sobre-mi" data-aos="fade-down">
             <div id="titulo-sobre-mi">
                 <h1 class="titulo-apartado">Sobre mi</h1>
                 <div class="guion-texto">
@@ -57,7 +58,7 @@
             </div>
         </section>
 
-        <section id="habilidades">
+        <section id="habilidades" data-aos="fade-down">
             <div id="titulo-sobre-mi">
                 <h1 class="titulo-apartado">Habilidades</h1>
                 <div class="guion-texto">
@@ -81,7 +82,7 @@
         </section>
 
 
-        <section id="mi-trabajo">
+        <section id="mi-trabajo" data-aos="fade-down">
             <div id="texto-contacto2">
                 <h1 class="titulo-apartado">¡Mis Trabajos!</h1>
                 <div class="guion-texto">
@@ -110,7 +111,7 @@
             </div>
         </section>
 
-        <section id="contacto">
+        <section id="contacto" data-aos="zoom-in">
             <div id="forma-contacto">
                 <div id="texto-contacto">
                     <h1 class="titulo-apartado">¡Contacta conmigo!</h1>
@@ -140,6 +141,13 @@
             <p>Todos los derechos reservados - <a href="https://github.com/Sailok25">© SAILOK 2024</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
