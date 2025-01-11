@@ -106,7 +106,7 @@
                 </div>
 
                 <div id="ver-mas">
-                    <a href="./php/proyectos.php">Ver más</a>
+                    <a href="php/proyectos.php">Ver más</a>
                 </div>
             </div>
         </section>
