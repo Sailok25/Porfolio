@@ -1,6 +1,6 @@
 # Mi Portafolio ✨
 
-Este es mi portafolio personal, diseñado para mostrar mis proyectos, habilidades y experiencia como desarrollador. Está construido con HTML, CSS, y PHP, y se encuentra alojado en GitHub Pages.
+Este es mi portafolio personal, diseñado para mostrar mis proyectos, habilidades y experiencia como desarrolladora. Está construido con HTML, CSS, y PHP.
 
 ## Lenguajes Usados 🌐
 
@@ -17,5 +17,5 @@ Además, está diseñado con un enfoque limpio y moderno, fácil de navegar y vi
 
 ## Proyecto y Enlace 🚀
 
-Puedes ver mi portafolio en vivo a través del siguiente enlace:  
+Puedes ver mi portafolio a través del siguiente enlace o descargando el repositorio:  
 [https://sailok25.github.io/Porfolio](https://sailok25.github.io/Porfolio)
