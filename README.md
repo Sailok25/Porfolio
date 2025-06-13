@@ -18,4 +18,4 @@ Además, está diseñado con un enfoque limpio y moderno, fácil de navegar y vi
 ## Proyecto y Enlace 🚀
 
 Puedes ver mi portafolio a través del siguiente enlace o descargando el repositorio:  
-[https://sailok25.github.io/Porfolio](http://albaayala.atwebpages.com/)
+[albaayala.atwebpages.com/](http://albaayala.atwebpages.com/)
